@@ -1,5 +1,6 @@
 {% if site.footer_fixed %}
   <footer class="fixed-bottom" role="contentinfo">
+
     <div class="container mt-0">
       &copy; Copyright {{ site.time | date: '%Y' }}
       {{ site.first_name }}
@@ -19,6 +20,7 @@
       {% include scripts/newsletter.liquid %}
     {% endif %}
 
+     <div class="contact-icons">{% include social.liquid %}</div>
     <div class="container">
       &copy; Copyright {{ site.time | date: '%Y' }}
       {{ site.first_name }}
