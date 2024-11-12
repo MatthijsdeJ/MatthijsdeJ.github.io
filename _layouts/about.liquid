@@ -31,15 +31,19 @@ layout: default
 
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit">News:</a>
       {% include news.liquid limit=true %}
     {% endif %}
 
+    <br>
+
     <!-- Latest posts -->
     {% if site.latest_posts.enabled %}
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
+        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">Latest posts:</a>
       {% include latest_posts.liquid %}
     {% endif %}
+
+    <br>
 
     <!-- Social -->
     {% if page.social %}
