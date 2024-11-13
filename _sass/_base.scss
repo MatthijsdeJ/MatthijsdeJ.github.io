@@ -20,12 +20,16 @@ strong {
 }
 
 body{
-  font-family: 'Open Sans', sans-serif;
+  font-family: sans-serif; //, sans-serif;
+  font-style: normal;
+  font-weight: 400;
 }
 
 hr {
   border-top: 1px solid var(--global-divider-color);
-  font-family: 'Open Sans', sans-serif;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
 }
 
 .z-depth-1, img.z-depth-1, div.z-depth-1 {
@@ -33,9 +37,9 @@ hr {
   -webkit-box-shadow: none !important;
 }
 
-//.rounded {
-//  border-radius: 0 !important;
-//}
+.rounded {
+  border-radius: 0 !important;
+}
 
 table {
   td,
@@ -262,13 +266,17 @@ ul.task-list input[type="checkbox"] {
   border-bottom: 0px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
   opacity: 0.95;
-  font-family: 'Open Sans', sans-serif;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
 }
 
 .navbar .dropdown-menu {
   background-color: var(--global-bg-color);
   border: 1px solid var(--global-divider-color);
-  font-family: 'Open Sans', sans-serif;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
 
   a:not(.active) {
     color: var(--global-text-color);
@@ -852,7 +860,7 @@ footer.sticky-bottom {
 
 // Rouge Color Customization
 figure.highlight {
-  margin: 0 0 1rem;
+  margin: 0 0 0rem;
 }
 
 pre {
