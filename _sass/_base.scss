@@ -28,6 +28,15 @@ hr {
   font-family: 'Open Sans', sans-serif;
 }
 
+.z-depth-1, img.z-depth-1, div.z-depth-1 {
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+}
+
+//.rounded {
+//  border-radius: 0 !important;
+//}
+
 table {
   td,
   th {
