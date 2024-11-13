@@ -41,6 +41,11 @@ hr {
   border-radius: 0 !important;
 }
 
+embed {
+isplay: block; /* Makes sure the embed is treated as a block-level element */
+  max-width: 100%; /* Ensures it doesn't overflow the container */
+}
+
 table {
   td,
   th {
